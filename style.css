@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(62, 238, 179);
+    margin: 0;
+}
+
+p{
+    font-size: 1rem;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    background-color: blue;
+}
+.grid-item{
+    background-color: red;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(181, 255, 121);
+    column-gap: 10px;
+    padding: 15px;
+    justify-content: right;
+    color: rgb(80, 23, 134);
+    font-style: italic;
+    border: 1 solid;
+    width: 1000px;
+    height: 200px;
+}
+
+.nav-item{
+    background-color: chartreuse;
+    color: rgb(68, 0, 255);
+}
